@@ -1,5 +1,8 @@
 # React + Vite
 
+## Live site
+https://react-18-core.netlify.app/characters
+
 ## Technologies
 
 - React
