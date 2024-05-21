@@ -1,4 +1,5 @@
 import "./App.scss";
+
 import {
   BrowserRouter as Router,
   Link,
@@ -11,16 +12,18 @@ import Characters from "./pages/Characters";
 
 function App() {
   return (
-    <Router>
-      <Routes>
-        <Route path="/" element={<Layout />}></Route>
-        <Route path="/" element={<Home />}></Route>
-        <Route path="/characters" element={<Characters />}></Route>
-      </Routes>
-    </Router>
+    <div className="App">
+      <Router>
+        <Routes>
+          <Route path="/" element={<Layout />}>
+            <Route index element={<Home />} />
+            <Route path="characters" element={<Characters />} />
+          </Route>
+        </Routes>
+      </Router>
+    </div>
   );
 }
-
 function Layout() {
   return (
     <>

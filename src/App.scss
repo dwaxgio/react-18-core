@@ -40,3 +40,28 @@
 .read-the-docs {
   color: #888;
 }
+
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.App nav {
+  display: flex;
+  gap: 10px;
+}
+
+.App ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  list-style: none;
+}
+
+.App ul li {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
