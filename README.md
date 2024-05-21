@@ -1,7 +1,7 @@
 # React + Vite
 
 ## Live site
-https://react-18-core.netlify.app/characters
+https://react-18-core.netlify.app
 
 ## Technologies
 
